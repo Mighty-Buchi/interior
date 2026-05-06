@@ -91,7 +91,7 @@ const Hero = () => {
                             alt="Hero Image"
                             width={350}
                             height={350}
-                            loading='eager'
+                            priority
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                     
                                    md:rounded-tl-[150px] md:rounded-br-[80px]"
@@ -101,7 +101,7 @@ const Hero = () => {
                             alt="Hero Image"
                             width={350}
                             height={350}
-                            loading='eager'
+                            priority
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
                                    md:rounded-tr-[150px] md:rounded-bl-[80px]"
@@ -111,7 +111,7 @@ const Hero = () => {
                             alt="Hero Image"
                             width={350}
                             height={350}
-                            loading='eager'
+                            priority
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
                                    md:rounded-bl-[150px] md:rounded-tr-[80px]"
@@ -121,7 +121,7 @@ const Hero = () => {
                             alt="Hero Image"
                             width={350}
                             height={350}
-                            loading='eager'
+                            priority
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
                                    md:rounded-tl-[80px] md:rounded-br-[150px]"
