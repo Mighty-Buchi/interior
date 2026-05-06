@@ -27,7 +27,7 @@ const Hero = () => {
     const headline = "Welcome to Our Interior Design Services"
     const words = headline.split(" ")
 
-    const sub = " Where luxry meets elegance and aura. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloremque quam odit quae, cupiditate modi! Nam repudiandae reprehenderit debitis reiciendis iusto eaque quasi quisquam! Provident sint consequatur molestias cum iusto?"
+    const sub = "Luxury living, simplified. From initial floor plans to the final finishing touch, we handle the complexity so you can enjoy the elegance. Discover how we can redefine your home."
     const subcontent = sub.split(" ")
 
 
