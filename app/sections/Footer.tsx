@@ -4,7 +4,7 @@ import FooterBottom from '../components/FooterBottom'
 
 const Footer = () => {
   return (
-    <div className='bg-[#211b01c0] text-white m-auto'>
+    <div className='bg-[#211b01c0] text-white m-auto justify-center items-center flex flex-col'>
       <FooterTop/>
       <FooterBottom/>
     </div>

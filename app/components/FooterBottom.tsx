@@ -8,8 +8,8 @@ const FooterBottom = () => {
         <div className='max-w-7xl flex m-auto mt-1 border-t pt-15 px-2'>
             <div className='flex flex-col md:flex-row    m-auto w-full px-2 md:px-0 '>
                 <div className="flex flex-col gap-5 flex-1 pb-15 justify-start m-auto text-center md:text-start ">
-                    <h1 className='max-w-65 text-3xl '> Quiet, Natural, meaningful Living</h1>
-                    <p className='w-65'>we are a lifestyle brand creating quiet, natural furniture for everyday living.</p>
+                    <h1 className='max-w-md text-3xl '> Quiet, Natural, meaningful Living</h1>
+                    <p className='max-w-md'>we are a lifestyle brand creating quiet, natural furniture for everyday living.</p>
                     <div className=" flex gap-5 justify-center md:justify-start"> 
                         <Link href="https://instagram.com" className=" text-2xl md:text-3xl hover:scale-110 transition-all duration-200 ease-in-out"><FaInstagram /></Link>
                         <Link href="https://twitter.com" className=" text-2xl md:text-3xl hover:scale-110 transition-all duration-200 ease-in-out"><FaTwitter /></Link>

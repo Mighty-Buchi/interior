@@ -10,8 +10,8 @@ const Header = () => {
                     <Image
                         src="/next.svg"
                         alt="Logo"
-                        width={70}
-                        height={70}
+                        width={40}
+                        height={40 }
                     />
                 </Link>
                 <nav>

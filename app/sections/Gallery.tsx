@@ -25,7 +25,7 @@ const Gallery = () => {
       initial={{ opacity: 1, translateY: 100 }}
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
-      className='max-w-7xl mx-auto px-4 mb-10'>
+      className='max-w-7xl mx-auto px-4 mb-10 overflow-hidden justify-center'>
       <div className='pt-20 flex flex-col items-center'>
         <p className="tracking-wide text-[#7b7b7b]">See Amazing designs in our</p>
         <h1 className={`${play.className} text-4xl font-bold tracking-tight mb-8`}>Gallery</h1>
@@ -42,7 +42,7 @@ const Gallery = () => {
             transition={{ duration: 0.8 }}
             key={item.id} className='flex flex-col'>
 
-            <div className='relative w-full aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/5] overflow-hidden group rounded-lg'>
+            <div className='relative w-full h-auto aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/5] overflow-hidden group rounded-lg'>
               <Image
                 src={item.image}
                 alt={item.title}

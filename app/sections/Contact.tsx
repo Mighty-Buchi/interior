@@ -8,7 +8,7 @@ const Contact = () => {
       initial={{ opacity: 0, rotateY: "90deg" }}
       whileInView={{ opacity: 1, rotateY: 0 }}
       transition={{ duration: 1, delay: 0.1 }}
-      className="min-h-screen flex items-center justify-center bg-gray-100 p-6 md:p-12">
+      className=" flex items-center justify-center bg-gray-100 p-6 md:p-12 overflow-hidden">
 
       <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center">
 

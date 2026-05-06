@@ -34,17 +34,14 @@ const Hero = () => {
 
 
     return (
-        <section className='relative flex justify-center  px-2 min-h-150 md:min-h-0 overflow-hidden bg-[#F5F5F0] mx-1 z-2  '>
+        <section className='relative flex justify-center  px-2 min-h-screen md:min-h-0 overflow-hidden bg-[#F5F5F0] mx-1 z-2    '>
             <div className='flex flex-col md:flex-row justify-center items-center mx-auto gap-5 py-10 max-w-6xl w-full'>
 
 
-                <div className="relative z-20 flex-1 text-center md:text-left gap-5 flex flex-col">
-                    {/* <h1 className={`  ${great.className} [-webkit-text-stroke:0.5px_currentColor] text-[57px] pt-25 leading-[1.2] tracking-wider md:pt-0 md:text-7xl font-bold mb-5 text-white md:text-black `}>
-                       {headline}
-                    </h1> */}
-
+                <div className="relative z-20 flex-1 text-center md:text-left gap-4 flex flex-col">
+                    
                     <motion.h1
-                        className={` flex flex-wrap ${great.className} [-webkit-text-stroke:0.5px_currentColor] text-[57px] pt-25 leading-[1.2] tracking-wider md:pt-0 md:text-7xl font-bold mb-5 text-white md:text-black gap-3 m-auto `}>
+                        className={` flex flex-wrap ${great.className} [-webkit-text-stroke:0.5px_currentColor] text-[57px] pt-8 leading-[1.1] tracking-wider md:pt-5 md:text-7xl font-bold mb-5 text-white md:text-black gap-2 m-auto `}>
                         {words.map((word, index) => (
                             <motion.span key={index}
                                 initial={{ filter: "blur(10px)", opacity: 0, y: 50 }}
@@ -61,6 +58,7 @@ const Hero = () => {
                                 initial={{ filter: "blur(10px)", opacity: 0, y: 10 }}
                                 animate={{ filter: "blur(0px)", opacity: 1, y: 0 }}
                                 transition={{ duration: 0.2, delay: 0.03 * index }}
+                                
                             >
                                 {letter}
                             </motion.span>
@@ -83,7 +81,7 @@ const Hero = () => {
                         width={480}
                         height={480}
                         className="object-cover w-full h-full md:w-auto md:h-auto 
-                                   border-4 rounded-tl-[70px] rounded-br-[70px] 
+                                   border-4 rounded-[40px] 
                                    md:rounded-tl-[150px] md:rounded-br-[150px] md:hidden"
                     />
 
@@ -91,8 +89,8 @@ const Hero = () => {
                         <Image
                             src="/image.png"
                             alt="Hero Image"
-                            width={480}
-                            height={480}
+                            width={350}
+                            height={350}
                             loading='eager'
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                     
@@ -101,8 +99,8 @@ const Hero = () => {
                         <Image
                             src="/hero-2.jpg"
                             alt="Hero Image"
-                            width={480}
-                            height={480}
+                            width={350}
+                            height={350}
                             loading='eager'
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
@@ -111,8 +109,8 @@ const Hero = () => {
                         <Image
                             src="/heroo-3.jpg"
                             alt="Hero Image"
-                            width={480}
-                            height={480}
+                            width={350}
+                            height={350}
                             loading='eager'
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
@@ -121,8 +119,8 @@ const Hero = () => {
                         <Image
                             src="/hero-4.jpg"
                             alt="Hero Image"
-                            width={480}
-                            height={480}
+                            width={350}
+                            height={350}
                             loading='eager'
                             className="object-cover w-full h-full md:w-auto md:h-auto 
                                    
@@ -132,7 +130,7 @@ const Hero = () => {
 
 
                     <div className="absolute inset-0 bg-black/50 md:bg-transparent 
-                                    rounded-tl-[70px] rounded-br-[70px] 
+                                    rounded-[40px]
                                     md:rounded-none z-10" />
                 </div>
 
