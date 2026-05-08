@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
     return (
         <header className=' flex justify-center   sticky top-0 z-50'>
-            <div className='flex items-center  justify-center gap-8 bg-[#F5F5F0]/20 backdrop-blur-lg md:gap-100 m-auto py-4 md:py-5 px-4 rounded-full my-2 border border-[#211b01c0]'>
+            <div className='flex items-center  justify-center gap-8 bg-[#F5F5F0]/20 backdrop-blur-lg md:gap-100 m-auto py-4 md:py-5  px-4 rounded-full my-1 border border-[#211b01c0]'>
                 <Link href="/" >
                     <Image
                         src="/next.svg"
