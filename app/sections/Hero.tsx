@@ -41,7 +41,7 @@ const Hero = () => {
                 <div className="relative z-20 flex-1 text-center md:text-left gap-4 flex flex-col">
                     
                     <motion.h1
-                        className={` flex flex-wrap ${great.className} [-webkit-text-stroke:0.5px_currentColor] text-[57px] pt-8 leading-[1.1] tracking-wider md:pt-5 md:text-7xl font-bold mb-5 text-white md:text-black gap-2 m-auto `}>
+                        className={` flex flex-wrap ${great.className} [-webkit-text-stroke:0.5px_currentColor] text-[57px] pt-7 leading-[1.1] tracking-wider md:pt-5 md:text-7xl font-bold mb-5 text-white md:text-black gap-2 m-auto `}>
                         {words.map((word, index) => (
                             <motion.span key={index}
                                 initial={{ filter: "blur(10px)", opacity: 0, y: 50 }}
